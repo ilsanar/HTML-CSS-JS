@@ -1,0 +1,114 @@
+body {
+      margin: 0;
+      font-family: "Roboto", sans-serif;
+      background-color: #F5F5F5;
+      color: #2C2C2E;
+      line-height: 1.6;
+    }
+    
+    
+header {
+  background-color:#F5F5F5;
+  
+  
+  
+}
+
+h1, h2, h3{
+
+font-family: "IBM Plex Sans", sans-serif;
+
+}
+
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #C0392B;
+   
+}
+
+.hero-container {
+    display: flex;
+    flex-wrap: nowrap;
+  height: 300px;
+  overflow: hidden;
+}
+
+
+
+.hero-svg {
+ 
+  
+  flex-basis:400px;
+  flex-shrink: 1;
+  flex-grow: 4;
+  margin-right: 3rem;
+  
+}
+
+.hero-content {
+  
+  flex-basis: 280px;
+  flex-shrink: 0;
+  flex-grow: 1;
+  padding: 3rem;
+}
+
+nav  {
+ 
+  background-color: #2C2C2E;
+  padding: 0.5rem 1rem;
+  height: auto;
+}
+
+nav a {
+  color: #FFFFFF;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color:#C0392B;
+}
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 3rem;
+  background-color: #FFFFFF;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+h2 {
+  color: #3C6382;
+  border-bottom: 1px solid #E63946;
+  padding-bottom: 0.5rem;
+}
+
+a.button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #3C6382;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 0.25rem;
+}
+
+a.button:hover {
+background-color: #C0392B;
+}
+
+footer {
+  background-color: #F0F0F0;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
