@@ -91,6 +91,12 @@ h2 {
   padding-bottom: 0.5rem;
 }
 
+h3 {
+  color: #3C6382;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
 a.button {
   display: inline-block;
   margin-top: 1rem;
@@ -112,3 +118,15 @@ footer {
   font-size: 0.9rem;
   color: #666;
 }
+
+footer img {
+  height: 20px;
+  vertical-align: middle;
+}
+
+footer a {
+  color: #666;
+  text-decoration: none;
+}
+
+
